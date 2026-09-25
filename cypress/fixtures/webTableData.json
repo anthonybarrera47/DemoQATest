@@ -1,0 +1,16 @@
+{
+  "newEmployee": {
+    "firstName": "Diana",
+    "lastName": "Prince",
+    "email": "diana.prince@themyscira.org",
+    "age": "29",
+    "salary": "95000",
+    "department": "Security"
+  },
+  "updatedEmployee": {
+    "salary": "115000",
+    "department": "Executive Security"
+  },
+  "searchQuery": "Cierra",
+  "nonExistentQuery": "NonExistentUserXYZ99"
+}

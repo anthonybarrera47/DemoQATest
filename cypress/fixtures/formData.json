@@ -1,0 +1,25 @@
+{
+  "validStudent": {
+    "firstName": "Alex",
+    "lastName": "Mercer",
+    "email": "alex.mercer@example.com",
+    "gender": "Male",
+    "mobile": "9876543210",
+    "dateOfBirth": {
+      "day": "15",
+      "month": "July",
+      "year": "1995"
+    },
+    "subjects": ["Maths", "Physics"],
+    "hobbies": ["Sports", "Music"],
+    "currentAddress": "742 Evergreen Terrace, Sector 7G",
+    "state": "NCR",
+    "city": "Delhi"
+  },
+  "invalidStudent": {
+    "firstName": "",
+    "lastName": "",
+    "email": "invalid-email-format",
+    "mobile": "invalidNumber"
+  }
+}

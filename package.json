@@ -1,0 +1,36 @@
+{
+  "name": "demoqa-cypress-automation",
+  "version": "1.0.0",
+  "description": "Cypress E2E test suite for DemoQA",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "test:headed": "cypress run --headed",
+    "test:chrome": "cypress run --browser chrome",
+    "test:edge": "cypress run --browser edge",
+    "test:firefox": "cypress run --browser firefox",
+    "test:forms": "cypress run --spec \"cypress/e2e/01-forms.cy.js\"",
+    "test:selections": "cypress run --spec \"cypress/e2e/02-selections.cy.js\"",
+    "test:dialogs": "cypress run --spec \"cypress/e2e/03-dialogs.cy.js\"",
+    "cy:open": "cypress open",
+    "lint": "eslint cypress",
+    "format": "prettier --write \"cypress/**/*.js\"",
+    "format:check": "prettier --check \"cypress/**/*.js\""
+  },
+  "keywords": [
+    "cypress",
+    "e2e-testing",
+    "demoqa"
+  ],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "devDependencies": {
+    "axe-core": "^4.13.0",
+    "cypress": "^14.5.1",
+    "cypress-axe": "^1.7.0",
+    "eslint": "^10.11.0",
+    "eslint-plugin-cypress": "^7.0.2",
+    "prettier": "^3.9.9"
+  }
+}
